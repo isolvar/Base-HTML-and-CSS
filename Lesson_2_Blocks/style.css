@@ -102,15 +102,15 @@ footer {
     box-sizing: border-box; /* include border and padding thickness in block dimension */
 }
 
-.block1 {
-    /* align-self: flex-start; */
-    /* flex: 1; */
-}
+/* .block1 {
+    align-self: flex-start;
+    flex: 1;
+} */
 
-.block3 {
-    /* align-self: flex-end; */
-    /* flex: 2; */
-}
+/* .block3 {
+    align-self: flex-end;
+    flex: 2;
+} */
 
 /* 1. прибить футер к низу 
 2. сверстать макет*/
