@@ -10,7 +10,7 @@ ul {
 
 .container {
     width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto 150px; /* homework 1: added bottom margin 150px the same as footer height */
 }
 
 /* header style */
@@ -81,6 +81,7 @@ footer {
     bottom: 0px;
     width: 1140px;
     justify-self: center;
+    margin-top: 5px;
 }
 
 /* Try flex */
