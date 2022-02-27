@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 .header {
     height: 80px;
     display: flex;
@@ -92,8 +93,12 @@ body {
 }
 
 .bommom-part {
+    width: 100%;
+    height: 441px;
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .words {
@@ -118,22 +123,13 @@ body {
 }
 
 .words-part1 {
-    margin: 0 auto 0;
+    margin: 0 auto;
     font-size: 32px;
 }
 
 .words-part2 {
     margin: 10px auto 0;
     font-size: 24px;
-}
-
-.bommom-part {
-    width: 100%;
-    height: 441px;
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .bottom-part-text {
@@ -144,6 +140,10 @@ body {
     line-height: 150%;
     /* or 27px */
     color: #424242;
+}
+
+.bottom-part-picture {
+    filter: drop-shadow(30px 40px 40px rgba(255, 181, 181, 0.5));
 }
 
 .footer {
