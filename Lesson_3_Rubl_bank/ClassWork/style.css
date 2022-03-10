@@ -25,7 +25,7 @@ ul {
     box-sizing: border-box;
 }
 
-.banner-buttons {
+.buttons {
     display: flex;
     justify-content: space-between;
 
@@ -33,13 +33,13 @@ ul {
 }
 
 .btn-primary {
- background-color: #3A95FF;
- color: #fff;
+    background-color: #3a95ff;
+    color: #fff;
 }
 
 .btn-secondary {
-    border: 1px solid #3A95FF;
-    color: #3A95FF;
+    border: 1px solid #3a95ff;
+    color: #3a95ff;
 }
 
 .container {
@@ -88,7 +88,7 @@ ul {
     width: 340px;
 }
 .list-blue {
-    color: #3A95FF;
+    color: #3a95ff;
     font-weight: 600;
     text-decoration: none;
 }
@@ -131,4 +131,111 @@ ul {
     line-height: 110%;
     color: #212121;
     margin-bottom: 63px;
+}
+
+.offers-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers-info-item {
+    background: #eff2f5;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    width: 555px;
+    display: flex;
+    margin-bottom: 62px;
+}
+
+.offers-info-item img {
+    border-radius: 0 8px 8px 0;
+}
+
+.credits {
+    background-color: #eff2f5;
+    height: 775px;
+}
+
+.credits-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits-60 {
+    background: #e0e5ea;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+        5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 750px;
+}
+
+.credits-60-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits-60-head p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    color: #212121;
+
+    margin-left: 99px;
+}
+
+.credits-60-items {
+    display: flex;
+    justify-content: space-between;
+    width: 545px;
+
+    margin-bottom: 40px;
+    margin-left: 101px;
+}
+
+.credits-60-item-head {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #212121;
+    border-bottom: 1px solid #3a95ff;
+}
+
+.credits-60-item-bottom {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #424242;
+}
+
+.credits-60-item {
+    text-align: center;
+}
+.credits-60-item p {
+    margin: 0;
+    padding: 8px;
+}
+
+.credits-side-link {
+    background: #f7f7f7;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+        5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 5px solid #3a95ff;
+    width: 360px;
+    height: 235px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
+    box-sizing: border-box;
+}
+
+.credits-side-link img {
+    align-self: flex-end;
 }
